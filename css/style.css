@@ -1,0 +1,244 @@
+/* GENERAL STYLE */
+
+        /* ridimensionamento navbar */
+        .bigger-nav {
+            max-width: 1840px!important;
+            padding-right: 0px!important;
+            padding-left:0px!important;
+        }
+        
+        /* no padding ultimo elemento navbar */
+
+        .no-padding-right {
+            padding-right: 0px!important;
+        }
+
+        .navbar-brand-site-dark {
+            color: black!important;
+            font-weight: 700!important;
+        }
+
+        .item-dark {
+            font-size: 2.5rem;
+            color:black!important;
+            font-weight: 400;
+        }
+
+        /* fade in */
+        body {
+            font-family: 'Niagara Solid';
+            letter-spacing: 1.3px;
+            opacity: 1;
+            transition: 3s opacity;
+            font-size: 1.3rem;
+        }
+        body.fade-out {
+            opacity: 0;
+            transition: none;
+        }
+        
+        .on-click{
+            font-weight: 700;
+            cursor: default;
+        }
+        
+
+        @font-face {
+            font-family: 'Niagara Solid';
+            font-style: normal;
+            font-weight: lighter;
+            src: local('Niagara Solid'), url('../font/Niagara Solid.woff') format('woff');
+        }
+
+        .burger-white {
+            background-image: url("/img/burger-menu.png")!important;
+        }
+
+        .icon-white {
+            color:white;
+        }
+
+        .social-place{
+            position:absolute;
+            bottom:2em;
+            text-align: center;
+            max-width: 100%;
+
+        }
+
+        .height-404{
+            height:67vh;
+        }
+
+        .hover-item:hover{
+            color: lightgrey!important;
+        }
+
+/* LANDINGPAGE STYLE */
+
+        /* navbar style for landingpage */
+
+        .navbar-brand-custom {
+            font-size: 2.5rem;
+            display: inline-block;
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            line-height: inherit;
+            white-space: nowrap;
+            font-family: 'Niagara Solid';
+        }
+
+        .navbar-dark .navbar-brand-custom {
+          color: white;
+          font-weight: 700;
+        }
+
+
+        .navbar-brand-custom:hover, .navbar-brand-custom:focus {
+          text-decoration: none;
+        }
+
+        .data {
+          border-bottom: 1px solid grey;
+          margin-top: -2px;
+        }
+        
+        /* elemento navbar landingpage */
+
+        .item {
+            color: white!important;
+            font-size: 2.5rem;
+            font-family: 'Niagara Solid';
+            font-weight: 400;
+        }
+
+        .btn-nav-color {
+            border-color:white!important;
+        }
+
+        a .nav-link .item .home-link .s {
+            color: white!important;
+        }
+
+
+
+        /* css for slideshow */
+
+        .carousel-item {
+          height: 100vh;
+          min-height: 300px;
+          background: no-repeat center center scroll;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+        }
+
+
+
+/* NEWS PAGE CSS*/
+
+        /* navbar news page */
+        
+
+
+/* WORKPAGE CSS*/
+
+
+        /* SECOND NAVBAR IN WORKPAGE */
+
+        .fixed-top-2 {
+            margin-top: 56px;
+        }
+
+        /* BOTTOM IMAGE IN WORK POST */
+
+        .full-width-image-2 {
+            background: no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            height: 450px;
+        }
+
+        /* SOCIAL ICON STYLE */
+
+        .socialIcon {
+            font-size: 2.5rem;
+        }
+
+        .socialIconMid {
+            font-size: 2.5rem;
+            margin-left: 3.5rem;
+            margin-right: 3.5rem;
+        }
+
+        .facebook:hover{
+            color: #3b5998;
+        }
+
+        .instagram:hover{
+            color: #c32aa3;
+        }
+
+        .twitter:hover{
+            color: #1da1f2;
+        }
+        
+        .filter-item-dark {
+            font-size: 1.5rem;
+            font-family: 'Niagara Solid';
+            color:black!important;
+            font-weight: 400;
+        }
+
+        .margin0 {
+            margin-left: 0px!important;
+        }
+
+
+/* WORKPAGE POST CSS*/
+        
+
+        /* modify height slideshow */
+        
+        .new-height{
+                  height: 1080px!important;
+        }
+
+        div, div, div, a{
+            color: #505050;
+        }
+
+
+
+.center_404{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    align-content: center;
+    text-align: center;
+}
+
+.img-404 {
+    max-width: 50%;
+    text-align: right;
+}
+
+.header-404 {
+    font-size: 2.2em;
+    text-transform: uppercase;
+}
+
+.body-404{
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+.underline{
+    text-decoration: underline;
+}
